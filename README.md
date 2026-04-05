@@ -194,5 +194,5 @@ only; the manuscript and its figures remain under IEEE copyright.
 For questions about the code or paper, please contact the corresponding
 author:
 
-> **Prof. Suthep Suantai** — `suthep.s@cmu.ac.th`
+> **Dr. Kobkoon Janngam** — `kobkoon.j@gmail.com`
 > Department of Mathematics, Faculty of Science, Chiang Mai University, Thailand
