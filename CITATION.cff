@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "CNN-ELM-DIPGM-VA: Double-Inertial Bilevel Optimization for Hybrid Deep Learning — Source Code"
+authors:
+  - family-names: Janngam
+    given-names: Kobkoon
+    affiliation: "Department of Mathematics, Faculty of Science, Chiang Mai University, Thailand"
+  - family-names: Suantai
+    given-names: Suthep
+    affiliation: "Research Center in Optimization and Computational Intelligence for Big Data Prediction, Chiang Mai University, Thailand"
+    email: suthep.s@cmu.ac.th
+license: MIT
+repository-code: "https://github.com/KobkoonCoding/CNN-ELM-DIPGM-VA"
+version: "1.0.0"
+date-released: "2024-01-01"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Janngam
+      given-names: Kobkoon
+    - family-names: Suantai
+      given-names: Suthep
+  title: "Double-Inertial Bilevel Optimization for Hybrid Deep Learning: Accelerating Chest X-Ray Classification"
+  journal: "IEEE Access"
+  year: 2024
+  doi: "10.1109/ACCESS.2024.0300000"
