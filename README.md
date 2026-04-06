@@ -115,7 +115,7 @@ and place them under `artifacts/`:
 artifacts/
 ├── best_backbone.pth                          (23 MB)
 └── feature_exports/
-    └── features_v6_scaled.npz                 (29 MB)
+    └── features_v6_scaled.npz                 (29 MB — downloaded as features_scaled.npz)
 ```
 
 > **Cell 15 (LOAD)** auto-downloads these files from the release if they are
