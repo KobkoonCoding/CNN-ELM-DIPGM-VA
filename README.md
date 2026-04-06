@@ -47,11 +47,6 @@ CNN-ELM-DIPGM-VA/
 ├── CITATION.cff                 - machine-readable citation metadata
 ├── notebooks/
 │   └── CNN_ELM_DIPGM_VA.ipynb   - end-to-end reproducible notebook
-├── scripts/
-│   └── build_clean_notebook.py  - regenerates the clean notebook
-├── docs/
-│   ├── CHANGELOG.md             - refactor history vs. the original code
-│   └── code_availability.tex    - paragraph to paste into the manuscript
 └── figures/                     - selected figures from the paper
 ```
 
@@ -107,23 +102,38 @@ automatically via `kagglehub` on first execution:
 No manual download is required, but you must be signed in with a valid Kaggle
 API token.
 
+## Pre-trained artifacts (optional — skip backbone training)
+
+We provide the fine-tuned backbone weights and pre-extracted features as
+**GitHub Release assets** so you can skip the ~35-minute training stage and
+jump straight to the ELM experiments.
+
+Download both files from the
+[latest release](https://github.com/KobkoonCoding/CNN-ELM-DIPGM-VA/releases/latest)
+and place them under `artifacts/`:
+```
+artifacts/
+├── best_backbone.pth                          (23 MB)
+└── feature_exports/
+    └── features_v6_scaled.npz                 (29 MB)
+```
+
+> **Cell 15 (LOAD)** auto-downloads these files from the release if they are
+> not already present locally — no manual download is required.
+
 ## How to run
 
 1. Launch Jupyter:
    ```bash
    jupyter notebook notebooks/CNN_ELM_DIPGM_VA.ipynb
    ```
-2. **First run:** execute every cell top-to-bottom. Cells 11–14 perform the
-   two-stage fine-tuning of EfficientNetV2-B0 and cache the artifacts under
-   `artifacts/`:
-   - `artifacts/best_backbone.pth`
-   - `artifacts/feature_exports/features_v6.pt`
-   - `artifacts/feature_exports/features_v6_scaled.npz`
-   - `artifacts/training_history.csv`
-   - `artifacts/timing_first_run.json`
-3. **Subsequent runs:** skip Cells 11–14 and execute **Cell 15 (LOAD)**
-   instead, then continue from Cell 16. This reuses the cached backbone and
-   features and takes only seconds.
+2. **Option A — Train from scratch:** execute every cell top-to-bottom.
+   Cells 11–14 perform the two-stage fine-tuning of EfficientNetV2-B0 and
+   cache the artifacts listed above.
+3. **Option B — Use pre-trained artifacts (recommended):** skip Cells 11–14
+   and execute **Cell 15 (LOAD)** instead. The cell will download the
+   pre-trained files automatically from the GitHub release if they are not
+   found locally, then continue from Cell 16. This takes only seconds.
 
 ### Expected reproduction time (single NVIDIA Tesla P100, 16 GB VRAM)
 
