@@ -4,7 +4,7 @@ Official source code for the IEEE Access manuscript:
 
 > **Kobkoon Janngam** and **Suthep Suantai**,
 > *"Double-Inertial Bilevel Optimization for Hybrid Deep Learning: Accelerating Chest X-Ray Classification,"*
-> **IEEE Access**, 2024. DOI: [10.1109/ACCESS.2024.0300000](https://doi.org/10.1109/ACCESS.2024.0300000)
+> **Submitted to IEEE Access**, 2026. *(Under Review)*
 
 ---
 
@@ -155,16 +155,15 @@ approximately a **10×** speed-up in classifier training over the SGD baseline
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{Janngam2024DIPGMVA,
+@article{Janngam2026DIPGMVA,
   author  = {Janngam, Kobkoon and Suantai, Suthep},
   title   = {Double-Inertial Bilevel Optimization for Hybrid Deep Learning:
              Accelerating Chest X-Ray Classification},
-  journal = {IEEE Access},
-  year    = {2024},
-  doi     = {10.1109/ACCESS.2024.0300000},
-  url     = {https://doi.org/10.1109/ACCESS.2024.0300000}
+  journal = {Submitted to IEEE Access},
+  year    = {2026}
 }
 ```
+*(Note: Citation details will be updated with Volume/Issue and DOI upon publication.)*
 
 ## Code availability
 
@@ -196,3 +195,5 @@ author:
 
 > **Dr. Kobkoon Janngam** — `kobkoon.j@gmail.com`
 > Department of Mathematics, Faculty of Science, Chiang Mai University, Thailand
+> **Prof. Dr. Suthep Suantai** — `suthep.s@cmu.ac.th`
+> Research Center in Optimization and Computational Intelligence for Big Data Prediction, Chiang Mai University, Thailand
