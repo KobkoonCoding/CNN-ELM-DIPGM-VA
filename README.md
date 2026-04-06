@@ -1,5 +1,8 @@
 # Double-Inertial Bilevel Optimization for Hybrid Deep Learning: Accelerating Chest X-Ray Classification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19439799.svg)](https://doi.org/10.5281/zenodo.19439799)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Official source code for the IEEE Access manuscript:
 
 > **Kobkoon Janngam** and **Suthep Suantai**,
@@ -179,7 +182,7 @@ If you use this code in your research, please cite:
 
 The source code accompanying this manuscript is openly available on GitHub at
 `https://github.com/KobkoonCoding/CNN-ELM-DIPGM-VA` and permanently archived
-on Zenodo at `https://doi.org/10.5281/zenodo.XXXXXXX` (DOI minted from the
+on Zenodo at `https://doi.org/10.5281/zenodo.19439799` (DOI minted from the
 corresponding GitHub release tag). The Kermany *et al.* (2018) chest X-ray
 dataset used in this study is publicly available at
 <https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia>.

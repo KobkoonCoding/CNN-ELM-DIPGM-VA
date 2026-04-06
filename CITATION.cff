@@ -12,7 +12,8 @@ authors:
     email: suthep.s@cmu.ac.th
 license: MIT
 repository-code: "https://github.com/KobkoonCoding/CNN-ELM-DIPGM-VA"
-version: "1.0.0"
+doi: "10.5281/zenodo.19439799"
+version: "1.1.0"
 date-released: "2026-04-06"
 preferred-citation:
   type: article
