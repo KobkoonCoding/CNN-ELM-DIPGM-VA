@@ -3,11 +3,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19439799.svg)](https://doi.org/10.5281/zenodo.19439799)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official source code for the IEEE Access manuscript:
+Official source code for the AIMS Mathematics manuscript:
 
 > **Kobkoon Janngam** and **Suthep Suantai**,
 > *"Double-Inertial Bilevel Optimization for Hybrid Deep Learning: Accelerating Chest X-Ray Classification,"*
-> **Submitted to IEEE Access**, 2026. *(Under Review)*
+> **Submitted to AIMS Mathematics**, 2026.
 
 ---
 
@@ -172,7 +172,7 @@ If you use this code in your research, please cite:
   author  = {Janngam, Kobkoon and Suantai, Suthep},
   title   = {Double-Inertial Bilevel Optimization for Hybrid Deep Learning:
              Accelerating Chest X-Ray Classification},
-  journal = {Submitted to IEEE Access},
+  journal = {Submitted to AIMS Mathematics},
   year    = {2026}
 }
 ```
@@ -191,7 +191,7 @@ dataset used in this study is publicly available at
 
 This project is released under the **MIT License** — see
 [`LICENSE`](./LICENSE) for the full text. The MIT license applies to the code
-only; the manuscript and its figures remain under IEEE copyright.
+only; the manuscript and its figures remain under AIMS Mathematics copyright.
 
 ## Acknowledgements
 
