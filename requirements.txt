@@ -2,7 +2,7 @@
 #  Dependencies for:
 #    "Double-Inertial Bilevel Optimization for Hybrid Deep Learning:
 #     Accelerating Chest X-Ray Classification"
-#    Janngam & Suantai, IEEE Access
+#    Janngam & Suantai, AIMS Mathematics
 #
 #  Python 3.10+ recommended (tested on Python 3.12 / CUDA 12.6).
 #
