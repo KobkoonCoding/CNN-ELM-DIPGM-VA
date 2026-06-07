@@ -163,6 +163,24 @@ DIPGM-VA achieves the highest accuracy, recall, and F1-score, while delivering
 approximately a **10×** speed-up in classifier training over the SGD baseline
 (sub-second solve vs. ~10 s SGD epoch after backbone features are cached).
 
+## Additional analyses (revised manuscript)
+
+The notebook includes three further analyses added during the revision:
+
+- **Multi-seed robustness (Table 6, Cell 23):** mean and standard deviation of
+  accuracy, F1-score, and final objective over ten random seeds, with a paired
+  Wilcoxon signed-rank test on the objective.
+- **Inertial-parameter sensitivity (Tables 7-8, Cell 24):** a grid over the
+  schedules `mu_n` and `rho_n` of the final objective and test F1-score,
+  averaged over the same ten seeds. The objective improves as `mu_n` approaches
+  1 and `rho_n` decreases toward 0, while the F1-score stays close to 0.90.
+- **Comparison with a standard single-level ELM (Table 9, Cell 25):** the
+  bilevel ELM versus the Moore-Penrose pseudoinverse ELM on identical features.
+  The minimum-norm bilevel selection yields a roughly threefold smaller
+  output-weight norm and a higher F1-score (0.9001 vs. 0.8795).
+
+Approximate CPU runtimes are noted in the corresponding cells.
+
 ## Citation
 
 If you use this code in your research, please cite:
@@ -183,7 +201,10 @@ If you use this code in your research, please cite:
 The source code accompanying this manuscript is openly available on GitHub at
 `https://github.com/KobkoonCoding/CNN-ELM-DIPGM-VA` and permanently archived
 on Zenodo at `https://doi.org/10.5281/zenodo.19439799` (DOI minted from the
-corresponding GitHub release tag). The Kermany *et al.* (2018) chest X-ray
+corresponding GitHub release tag). The Zenodo record additionally includes the
+pre-trained backbone weights (`best_backbone.pth`) and the extracted features
+(`features_scaled.npz`), so the ELM experiments can be reproduced directly from
+the archived record. The Kermany *et al.* (2018) chest X-ray
 dataset used in this study is publicly available at
 <https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia>.
 
